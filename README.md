@@ -2,6 +2,8 @@
 
 A **React + Next.js + TypeScript + RxDB** project for managing notes. This app allows users to **store, edit, remove, and add notes**, with **offline support** using RxDB.  
 
+Try yourself [here](https://notes-keeper-ten.vercel.app/)
+
 ---
 
 ## 📦 Tech Stack
