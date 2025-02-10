@@ -19,6 +19,9 @@ A **React + Next.js + TypeScript + RxDB** project for managing notes. This app a
 ### **Clone the Repository and install packages**
 ```sh
 git clone git@github.com:Dmytrii248/Notes-Keeper.git
+```
+
+```sh
 cd notes-keeper
 ```
 
