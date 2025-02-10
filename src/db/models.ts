@@ -7,6 +7,7 @@ import {
 } from "rxdb";
 import { noteSchemaLiteral } from "./noteSchema";
 
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 const schemaTyped = toTypedRxJsonSchema(noteSchemaLiteral);
 
 export type NoteDocType = ExtractDocumentTypeFromTypedRxJsonSchema<

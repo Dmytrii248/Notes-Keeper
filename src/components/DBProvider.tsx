@@ -35,6 +35,7 @@ export const DBProvider = ({ children }: PropsWithChildren) => {
     return () => {
       database?.close();
     };
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   if (!database) {

@@ -18,7 +18,7 @@ const _create = async () => {
   });
 
   console.log("DatabaseService: created database");
-  (window as any)["db"] = db;
+  (window as unknown as { db: RxDatabase<TDatabaseCollections> }).db = db;
 
   console.log("DatabaseService: create collections");
   await db.addCollections({
